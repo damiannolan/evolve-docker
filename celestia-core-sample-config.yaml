@@ -1,0 +1,21 @@
+defaultHook:
+  beneficiary: celestia1y3kf30y9zprqzr2g2gjjkw3wls0a35pfs3a58q
+  oracleConfig:
+    evolve:
+      gasPrice: "1000000000"
+      tokenDecimals: 18
+      tokenExchangeRate: "1"
+  oracleKey: celestia1y3kf30y9zprqzr2g2gjjkw3wls0a35pfs3a58q
+  overhead:
+    evolve: 300000
+  owner: celestia1y3kf30y9zprqzr2g2gjjkw3wls0a35pfs3a58q
+  type: interchainGasPaymaster
+defaultIsm:
+  domains:
+    evolve:
+      type: testIsm
+  owner: celestia1y3kf30y9zprqzr2g2gjjkw3wls0a35pfs3a58q
+  type: domainRoutingIsm
+owner: celestia1y3kf30y9zprqzr2g2gjjkw3wls0a35pfs3a58q
+requiredHook:
+  type: merkleTreeHook
